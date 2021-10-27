@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 2rem;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.title{
+    margin: 1.5rem auto 0 auto;
+    font-size: 3rem;
+    font-family: 'Parisienne', cursive;
+    /*line-height: 1;*/
+}
+
+.wedding-date{
+    font-size: .90rem;
+    font-family: 'Merriweather', serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.header-link{
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    margin: 0 1rem;
+
+}
+
+/*Schedule Page*/
+.schedule-row {
+   text-align: center;
+}
+.schedule {
+    border-right: 1px solid #424242;
+    background-color: pink;
+}
+
+.schedule-details {
+    background-color: powderblue;
+}
