@@ -44,9 +44,18 @@ a:active {
 }
 
 /*Schedule Page*/
-.schedule-row {
-   text-align: center;
+.pinkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.schedule-row {
+    text-align: center;
+    padding-top: 50px;
+}
+
 .schedule {
     border-right: 1px solid #424242;
     background-color: pink;
@@ -55,3 +64,11 @@ a:active {
 .schedule-details {
     background-color: powderblue;
 }
+
+@media (max-width:766px) {
+    .schedule{
+        border-right: none;
+    }
+
+}
+
