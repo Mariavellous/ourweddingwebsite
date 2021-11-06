@@ -73,3 +73,18 @@ a:active {
 
 }
 
+/*Wedding Party Page*/
+.top-row {
+    background-color: pink;
+}
+
+.top-party {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-party {
+
+}
+
