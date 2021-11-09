@@ -76,15 +76,28 @@ a:active {
 /*Wedding Party Page*/
 .top-row {
     background-color: pink;
+    align-content: center;
 }
 
 .top-party {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-.bottom-party {
-
+.bridal-party {
+    max-width: 50%;
+    border-radius: 50%;
 }
+
+
+/*TRAVEL PAGE */
+.travel-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 

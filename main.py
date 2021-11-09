@@ -14,9 +14,9 @@ def home():
   return render_template('index.html')
 
 # Guests Q&A
-@app.route('/faqs')
+@app.route('/faq')
 def blog_post():
-  return render_template('faqs.html', qa_items=QA_ITEMS)
+  return render_template('faq.html', qa_items=QA_ITEMS)
 
 
 
